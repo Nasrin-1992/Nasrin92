@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SmokeSuite" parallel="classes">
+
+<test name= "test21">
+<classes>
+<class name = "com.bit.test.SmokeTest"/>
+<class name = "com.bit.test.RegressionTest"/>
+
+</classes>
+
+
+</test>
+
+</suite>
